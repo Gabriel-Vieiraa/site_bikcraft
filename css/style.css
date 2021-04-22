@@ -1,11 +1,30 @@
 /*Estilos Gerais */
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
 
+.btn {
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  color: white;
+  border: solid white;
+}
 /* Header */
 .header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #fec63e;
+  background-color: #fec63e; /*Amarelo*/
   padding: 10px;
 }
 
@@ -31,6 +50,56 @@
 
 .header_menu ul li a:hover {
   color: white;
+}
+
+/* Introdução*/
+.introducao {
+  width: 100%;
+  background: url(../img/home/head.png) no-repeat center;
+  background-size: 100%;
+  margin-top: 82px;
+  height: 373px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao .btn {
+}
+
+.quote-externo {
+  max-width: 286px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.quote-externo {
+  font-style: italic;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 0 auto;
+  margin: 12px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 /* Body*/
 body {
